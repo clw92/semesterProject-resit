@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(93, 93, 93);
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin-bottom: 5%;
+}
+
+.btnDelete {
+  margin-top: 5%;
+}
+
+.loginBtn {
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.landing-page {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  color: rgb(70, 69, 69);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.userLogIn {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  border: solid black;
+  margin-bottom: 10%;
+  color: black;
+  padding: 0.5em;
+  display: flex;
+  margin-top: 10%;
+}
+
+.nav-content {
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15%;
+}
+
+.header-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nav-content button {
+  border: none;
+  background-color: rgb(216, 70, 70);
+  color: white;
+  padding: 1em;
+  border-radius: 3em;
+}
+
+svg {
+  width: 7%;
+  margin-left: 5%;
+}
+
+.btn-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.btn-cta button {
+  border: none;
+  background-color: rgb(216, 70, 70);
+  color: white;
+  padding: 2em;
+  width: 20%;
+  border-radius: 3em;
+}
+
+.content {
+  height: 100vh;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.filter input {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.filter button {
+  border: none;
+  background-color: rgb(216, 70, 70);
+  color: white;
+
+  width: 10%;
+  border-radius: 3em;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input {
+  margin: 1.5em;
+  height: 3em;
+  padding-left: 1em;
+}
+
+form {
+}
+
+form button {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#myData {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5em;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15%;
+}
+
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  width: 20%;
+  margin-right: 2em;
+}
+
+.form-create {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.create-submit {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.btn-publish {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border: none;
+  background-color: rgb(216, 70, 70);
+  color: white;
+
+  border-radius: 3em;
+}
+
+.form-container {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10%;
+}
